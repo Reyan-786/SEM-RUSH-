@@ -1,0 +1,144 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="798,1051.3333333333333" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="64">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="47">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="496,986.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="counter">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Swiggy | Tracxn" sap:VirtualizedContainerService.HintSize="434,876" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="51568c9f-2593-418a-b49b-cff7501b4bb4" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,657.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="338,138.66666666666666" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="2" ScopeIdentifier="51568c9f-2593-418a-b49b-cff7501b4bb4" Version="V3" />
+            <uix:NDragAndDrop CursorMotionType="Smooth" DelayBetweenActions="0.3" DestinationScopeIdentifier="51568c9f-2593-418a-b49b-cff7501b4bb4" DisplayName="Drag and Drop 'DIV'" sap:VirtualizedContainerService.HintSize="338,231.33333333333334" sap2010:WorkflowViewState.IdRef="NDragAndDrop_1" ScopeIdentifier="51568c9f-2593-418a-b49b-cff7501b4bb4" Version="V3">
+              <uix:NDragAndDrop.DestinationTarget>
+                <uix:TargetAnchorable BrowserURL="https://tracxn.com/a/companies/2fD8ec0Lu1JQk3NjyG7l4fkRkR6bZhOis0oJ_gRDa7Y/swiggy.com/competitors/funding" DesignTimeRectangle="395, 688, 52, 52" DesignTimeScaleFactor="1.5" FriendlyName="'chrome.exe Swiggy Tracxn'" Guid="c369155a-2c66-4c33-ac79-003f16e964a7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACpSURBVGhD7de9DoMwDEXhvv+jFuLQH9rR1HuWiNq6QudIdw6fyJKbXyxA6gFSD5B6gNQDpB4g9UpAr/fH70svWTpo37/ebHMzK1k6aG0Pt96Hh2csHRTXYHRw1gDNBujkAM0G6OQAzQbo5ADNdjmQ9efvoDpUOiieD8u6eWvjD/j30kFRPPDiT8X1y14JqDJA6gFSD5B6gNQDpB4g9QCpB0g9QOoB0s79AJm6swndKWaoAAAAAElFTkSuQmCC" InformativeScreenshot="f698ee6fe81f215773ebd26388e2088c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Swiggy | Tracxn' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="418, 701, 1426, 22" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='rc-slider-step' parentid='container_tracxn' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rc-slider-step' parentid='container_tracxn' tag='DIV' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAABZIAAAAWCAYAAABaDWkCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUwSURBVHhe7d1bT5NLGwbg9f//ilFBwQpq1GNPpBAkIFCgbAotZdOyUXSWz3x9SfOlZ6stA153cgUlPXh7xDx3pzP/pEEue1fp+KQLAExB6/g0HRyepJ3d/bS+sZWWV74N/iKXl3bnLD/vqPcBAAAwbualcsT76/Wv83vNRXL/z386p2fp9PQUAJiCTqeTWq1W2tnZSevr62lvby//YS4xvV4vP++o9wEAADBu5qWydAZlci6S253zdNrtjnwhADB+Jycn6eDgIG1vb6dv376l29vbvAgpMVdXV+n9+/fpw4cPAAAAExfzx8LCQpqfn08vX75M/X5/MJ2Ul7u7uzzfjZr7npLYmZyL5NimPOoFAMD4xafVx8fHqdlsps3NzbSyspIXICXny5cvIxd4AAAA47a4uJhqtVp6/fp1ev78+WAqKTfdbvfJ70qO/liRDABT1m6389e04utZ8TWt3d3dvPgoOVF4j1rgAQAAjFtVJM/OzuZNLaUnjreIOW/U/PdUKJIB4AHEAuPo6Cif97W2tpY/uS49+/v76d27dyMXeQAAAOMSc0d1rMXMzExqNBqDqaTcxHGAimQAYKyiNI4FxuHhYT4feXV1NV1eXubFR8mJZ1ckAwAAkzZcJL948SIfC1h64s6bmPOe8vEWimQAmLJYWFQX7W1tbeXzkUu+aK9KfMKuSAYAACatKpLn5uZykRzHRpSe6sI9RTIAMDZVkRxHRcS5w8vLy3nhUXqqIjluTx612AMAAPivYt6IuePt27eP5qK9iCIZABi7WFjEV7NiR/JjKpIjceGFIhkAAJiUmDdi7nhsRXIk5jxFMgAwNlWRXO1Irtfr6eLiIi88So4dyQAAwKRVO5Jrtdp9kdxqtQZTSbmJHcmKZABgrIaL5O/fv+cdyY+hSI7nViQDAACT9FiL5JubG0UyADA+saiIm3yHdyTHZXtxllbpaTabimQAAGCiqiK5OtoiLtuLS8pLT7/fz3NezHtPtUxWJAPAFA0XyXFG8vb2di6S49+lJ3ZOK5IBAIBJGlUkx8xUerrdriIZABif/y+SG41GWl1dfRQX7n3+/FmRDAAATNRwkTw3N5dmZmbS/Pz8YCopN3H8xl9TJJ92L/78QpkMAJMWi4o4yiKK5J2dnbS2tpa+fv2azs/P8wKkxMRiaGFhQZEMAABMVFUkx/wRBfLs7Gx69uxZ0eckX19f5/ku5rynWiKH+yK5379OJ+2zP2929AsBgPGoiuSjo6O0u7ubNjY2Ur1ez2cml5qlpSVFMgAAMHHDRfKbN2/Sq1ev8oV7JR9vETNezHdPuUjudM5Sr3/9vyI5ctm7yjuTo10GACajdXyaDo/aaf+glRo7zbS+vpnq9dW0VC93YfTp06e0uLioSAYAACaqKpJj/qjVavfnJMcxF6WmuX+Y57uY82LeGzUHPmbtQYkcuS+SRUREZPL5/ft3uru7S7e3t/lm3/h0N3Yjb25u5gsaSsve3l4+nywWcrGoUyQDAACTUs0cMX8Mn5Mcx1tsbW0NppRyUs118TPmvJj3nnIUySIiIlNMLCx+/fqVfvz4ka6urtLZ2Vk+7yvOSy5xYfTx48e8gLMbGQAAmIaYO2L+iDmkOt6i1F3JFxcXea6L+S7mPEWyiIiIjC1Vkfzz5890c3OTLi8v82V21a7kks5KjmcL8ZzxvH/DwkhERERERB4u5qWyo0gWERGZcmJxMXy8RRxpUV2+12g0Uq/XG7zy4RLPFs/1N31NS0REREREHj7mpVKT0r+H7YUjo+shaAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NDragAndDrop.DestinationTarget>
+              <uix:NDragAndDrop.Target>
+                <uix:TargetAnchorable BrowserURL="https://tracxn.com/a/companies/2fD8ec0Lu1JQk3NjyG7l4fkRkR6bZhOis0oJ_gRDa7Y/swiggy.com/competitors/funding" DesignTimeRectangle="901, 689, 42, 42" DesignTimeScaleFactor="1.5" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl aria-role='slider' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='slider' tag='DIV' type='' class='rc-slider-handle rc-slider-handle-1' aaname='' /&gt;" Guid="0d10bc7f-7c31-4ba8-aea3-febca8f4f9f4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAQCSURBVGhD1ZlZUyIxFIX7//8i11KffZGlwAJFQBbZcd+9M1+GE7oRnGYGJJ6qlEqnky+Xk5vFyJbQx8eHvb+/29vbm72+vtrLy4s9Pz/b4+OjPTw8uHJ/f++LPuM59ajPe7xPO7T3r0oFHgem86enJwd0d3dnNzc3dn19baPRyJXhcOiLPuM59ajPe7xPO/8zgC/BaZASByaSQIzHYxsMBtbv991PoBRZ6iN+Lhos7cQHoL7SaiE4jSjKwNApHRJBYCm3t7cechnRLoOUnTTYZaI/F1zQ+JGoECUiDGyv13MDWJWAVvTpLy38J3BB8xUSFSDxa6fTcRFeh+gPcPqj3zTwCfA4tKyhKNPwukXfaeE9uKD5uniZTKCJ952CIY1tEuBMEF7aFLQEcDzbzJMDFzQTBR8D3O12XYVN6W/wDlyVmN1MxHa7/S2e/psAlt9nFSna8jXZA/hQtCjqEaPBIuRqfN1sNiePwtCiqEfKIiwwV1dX7vfQRMThjEc9arV7Vqs3rVSuWC5fnHwcnvqDsXW6Q+v2Rq5EeLpWq1mpVLLLy8tJtfCElcl22nlGrVbLLi4urFgsOq+HKlbyvb0929/fdyVqNBp2fn5u+Xx+UiVcHR8fT8GxBzap1+uTx+GKAHtw/H16erqx5X0Zkap3d3f/gOPvQqGwti3rKsWk9OCVSsX5O+SJKTFBPTi+yeVyk0dhS+Bklx8FjnZ2dqbg2Wx2pefIdSkR8bOzMxfxnwBO5ktYhcnJuTJ0sVh6cNIh4Cz9oQtnePBqtery+E+YoEdHR1NwrZwnJyfuBBSqOORsb29PwdmjlMtll1lCO/3ElclkkuDVWuP3JouUWLBMNtwd4uHhocvhHlwne6JNhuFSMzSxg93a2vKLjwMnqXPe1EmIvUtoOjg4cOCKtturcH/CzlAnfKIektdho8xey0W65sUinPKZrKRIznibFmxwwcfv8fuViDsLriRY8lk9iTaLEpbh2aYEJBaGCz7drXhwKjAaIszo8DpLK+Cb9DssFLgU7QQ4f8SjzkaGu0MsAzjR/87I42MYKIuijfzdobzO14Nl2LvE4Xm2bgHNN07/cMx6+xM4o+ElZq4swzVzHJ4JS+ZZh+gbUPqjX1lkNpPE5cApjEqWIf3MwgNOqlz1AOiL9uPQfCaLzIs28hf7X8HjeSYsCxS20QDwIQvYsiKKtE0Go13aXwYaffof0Dx4PEeOpyOWX6CVMjUIvMlkYiAaDIAU/uYZbel9ftIe7dL+POh5FpE8OJoHj9fwH9FV9DUAWYhBqDAYlfjn1KO+gBVl2qV9+kkLjRLgaBaeCcLsVsTwtwaAL/mqgdFAZoueUY/6AqYd2qNd2qeftNBmZr8Ar4hpJo72LNMAAAAASUVORK5CYII=" InformativeScreenshot="24f6db6a928c012b2e6c00aae3247e79.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Swiggy | Tracxn' /&gt;" SearchSteps="FuzzySelector, Image" Version="V1" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="420, 703, 1422, 18" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='rc-slider-step' parentid='container_tracxn' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='rc-slider-step' parentid='container_tracxn' tag='DIV' type='' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAABZIAAAAWCAYAAABaDWkCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAUwSURBVHhe7d1bT5NLGwbg9f//ilFBwQpq1GNPpBAkIFCgbAotZdOyUXSWz3x9SfOlZ6stA153cgUlPXh7xDx3pzP/pEEue1fp+KQLAExB6/g0HRyepJ3d/bS+sZWWV74N/iKXl3bnLD/vqPcBAAAwbualcsT76/Wv83vNRXL/z386p2fp9PQUAJiCTqeTWq1W2tnZSevr62lvby//YS4xvV4vP++o9wEAADBu5qWydAZlci6S253zdNrtjnwhADB+Jycn6eDgIG1vb6dv376l29vbvAgpMVdXV+n9+/fpw4cPAAAAExfzx8LCQpqfn08vX75M/X5/MJ2Ul7u7uzzfjZr7npLYmZyL5NimPOoFAMD4xafVx8fHqdlsps3NzbSyspIXICXny5cvIxd4AAAA47a4uJhqtVp6/fp1ev78+WAqKTfdbvfJ70qO/liRDABT1m6389e04utZ8TWt3d3dvPgoOVF4j1rgAQAAjFtVJM/OzuZNLaUnjreIOW/U/PdUKJIB4AHEAuPo6Cif97W2tpY/uS49+/v76d27dyMXeQAAAOMSc0d1rMXMzExqNBqDqaTcxHGAimQAYKyiNI4FxuHhYT4feXV1NV1eXubFR8mJZ1ckAwAAkzZcJL948SIfC1h64s6bmPOe8vEWimQAmLJYWFQX7W1tbeXzkUu+aK9KfMKuSAYAACatKpLn5uZykRzHRpSe6sI9RTIAMDZVkRxHRcS5w8vLy3nhUXqqIjluTx612AMAAPivYt6IuePt27eP5qK9iCIZABi7WFjEV7NiR/JjKpIjceGFIhkAAJiUmDdi7nhsRXIk5jxFMgAwNlWRXO1Irtfr6eLiIi88So4dyQAAwKRVO5Jrtdp9kdxqtQZTSbmJHcmKZABgrIaL5O/fv+cdyY+hSI7nViQDAACT9FiL5JubG0UyADA+saiIm3yHdyTHZXtxllbpaTabimQAAGCiqiK5OtoiLtuLS8pLT7/fz3NezHtPtUxWJAPAFA0XyXFG8vb2di6S49+lJ3ZOK5IBAIBJGlUkx8xUerrdriIZABif/y+SG41GWl1dfRQX7n3+/FmRDAAATNRwkTw3N5dmZmbS/Pz8YCopN3H8xl9TJJ92L/78QpkMAJMWi4o4yiKK5J2dnbS2tpa+fv2azs/P8wKkxMRiaGFhQZEMAABMVFUkx/wRBfLs7Gx69uxZ0eckX19f5/ku5rynWiKH+yK5379OJ+2zP2929AsBgPGoiuSjo6O0u7ubNjY2Ur1ez2cml5qlpSVFMgAAMHHDRfKbN2/Sq1ev8oV7JR9vETNezHdPuUjudM5Sr3/9vyI5ctm7yjuTo10GACajdXyaDo/aaf+glRo7zbS+vpnq9dW0VC93YfTp06e0uLioSAYAACaqKpJj/qjVavfnJMcxF6WmuX+Y57uY82LeGzUHPmbtQYkcuS+SRUREZPL5/ft3uru7S7e3t/lm3/h0N3Yjb25u5gsaSsve3l4+nywWcrGoUyQDAACTUs0cMX8Mn5Mcx1tsbW0NppRyUs118TPmvJj3nnIUySIiIlNMLCx+/fqVfvz4ka6urtLZ2Vk+7yvOSy5xYfTx48e8gLMbGQAAmIaYO2L+iDmkOt6i1F3JFxcXea6L+S7mPEWyiIiIjC1Vkfzz5890c3OTLi8v82V21a7kks5KjmcL8ZzxvH/DwkhERERERB4u5qWyo0gWERGZcmJxMXy8RRxpUV2+12g0Uq/XG7zy4RLPFs/1N31NS0REREREHj7mpVKT0r+H7YUjo+shaAAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, Image" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NDragAndDrop.Target>
+            </uix:NDragAndDrop>
+            <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="338,91.33333333333333" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="ada2f45b3de00e9dd41b961d9ee0f9ed.jpg" Selector="&lt;html app='chrome.exe' title='Swiggy | Tracxn' /&gt;" Url="https://tracxn.com/a/companies/2fD8ec0Lu1JQk3NjyG7l4fkRkR6bZhOis0oJ_gRDa7Y/swiggy.com/competitors/funding" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
